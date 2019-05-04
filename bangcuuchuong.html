@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bangcuuchuong</title>
+</head>
+<body>
+        <script>
+            let num='';
+            let x;
+            let y;
+            num = num + "<table style='text-align: center' border='1' width='800'>";
+            for (x=1;x<=9;x++) {
+                num = num + "<tr>";
+                for (y = 2; y <= 9; y++) {
+                    num = num + "<td>" + y + ' x ' + x + ' = '+ x * y + "</td>";
+                }
+                num = num + "</tr>";
+            }
+            num = num + "</table>";
+            document.write(num);
+        </script>
+</body>
+</html>
